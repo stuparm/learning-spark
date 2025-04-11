@@ -9,7 +9,7 @@ public class App {
         // parse args into exec context if needed
         ExecContext ctx = new ExecContext();
 
-        Executable example1 = new Example_01();
-        example1.exec(ctx);
+        Executable example = new Example_01();
+        example.exec(ctx);
     }
 }
