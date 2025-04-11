@@ -18,7 +18,10 @@ public class Example_01 implements Executable {
                 .option("header", "true")
                 .load("data/books.csv");
 
-        // Shows at most 5 rows from the dataframe
+
+        df = df.withColumn("authorId3",df.col("authorId").plus("2").as("authorId2"));
+        df.printSchema(5);
+
         df.show(5);
     }
 
