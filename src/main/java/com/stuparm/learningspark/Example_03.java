@@ -83,6 +83,7 @@ public class Example_03 implements Executable{
 
 
         Dataset<Row> df3 = df.unionByName(df2, true);
+        df3.explain(true);
         System.out.println("df3:" + df3.count());
 
         df3.show(5);
