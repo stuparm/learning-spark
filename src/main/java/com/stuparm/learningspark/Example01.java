@@ -4,7 +4,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
-public class Example_01 implements Executable {
+public class Example01 implements Executable {
 
     public void exec(ExecContext context) {
         SparkSession spark = SparkSession.builder()

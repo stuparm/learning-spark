@@ -1,18 +1,13 @@
 package com.stuparm.learningspark;
 
 import org.apache.spark.Partition;
-import org.apache.spark.internal.config.R;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
-import org.apache.spark.sql.execution.datasources.FilePartition;
-
-import javax.xml.crypto.Data;
-import java.util.Arrays;
 
 import static org.apache.spark.sql.functions.*;
 
-public class Example_03 implements Executable{
+public class Example03 implements Executable{
 
 
     @Override

@@ -10,7 +10,7 @@ import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
 
-public class Example_02 implements Executable{
+public class Example02 implements Executable{
 
 
     @Override
